@@ -3,18 +3,17 @@
 </template>
 
 <script>
-import Todo from './components/Todo.vue'
+import Todo from './components/Todo.vue';
 
 export default {
   name: 'App',
   components: {
-    Todo
+    Todo,
   }
 }
 </script>
 
 <style>
-
 @import "https://unpkg.com/tailwindcss/dist/tailwind.min.css";
 
 </style>
